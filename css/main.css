@@ -1112,6 +1112,13 @@ body {
           animation: grow-ans 2s var(--d) backwards;
 }
 
+audio {
+    position: fixed;
+    top: 10px;
+    right: 10px;
+}
+
+
 @-webkit-keyframes grow-ans {
   0% {
     transform: scale(0);
